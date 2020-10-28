@@ -16,3 +16,11 @@ cargo build
 # Build for production
 cargo build --release
 ```
+
+
+- `$HOME/.cargo/bin` 
+- `cargo init`
+- Rust code goes into src folder
+- `cargo run` - To compile the project. It compiles into target/debug/<file_name>
+- `cargo build` - Only compiles, doesn't runs it
+- `cargo build --release` - To build for production
